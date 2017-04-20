@@ -1,0 +1,15 @@
+/**
+ * Created by root on 17-4-20.
+ */
+// Reducer
+function counter(state={count:100},action) {
+    const count= state.count
+    switch (action.type){
+        case 'increase': return { count: count + 1 }
+        case 'decrease': return { count: count - 1 }
+        default :
+            return state
+    }
+}
+
+export default counter
