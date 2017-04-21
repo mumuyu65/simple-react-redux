@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8141bde9-a323-46d2-b47c-9d925d277a32" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-    </list>
+    <list default="true" id="8141bde9-a323-46d2-b47c-9d925d277a32" name="Default" comment="" />
     <ignored path="simplest-redux-example.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -594,12 +589,12 @@
       <option name="presentableId" value="Default" />
       <updated>1492671108585</updated>
       <workItem from="1492671118136" duration="1904000" />
-      <workItem from="1492673903216" duration="11632000" />
+      <workItem from="1492673903216" duration="11999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13536000" />
+    <option name="totallyTimeSpent" value="13903000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="25" width="1900" height="913" extended-state="1" />
