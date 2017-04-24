@@ -3,6 +3,7 @@
  */
 /*
  * 容器组件
+ * 功能：数据获取，状态更新，由react-redux生成，从redux获取state，向redux派发actions
  */
 import React, { Component, PropTypes } from 'react'
 
@@ -24,7 +25,7 @@ class App extends Component {
             <div className="container">
                 <AddTodo
                     onAddClick={text =>
-                        dispatch(addTodo(text))
+                        dispatch(addTodo(text))  // 通过dispatch向actions中分配任务
                     } />
                 <TodoList
                     todos={visibleTodos}

@@ -3,10 +3,12 @@
  */
 /*
  * 展示组件
+ * 功能：如何显示（样式、布局）,从props中获取数据，从props调用回调函数
  */
 import React, { Component, PropTypes } from 'react'
 
 class AddTodo extends Component {
+    //样式展示和布局
     render() {
         return (
             <div className="row">
@@ -29,7 +31,7 @@ class AddTodo extends Component {
     handleClick(e) {
         const node = this.refs.input
         const text = node.value.trim()
-        this.props.onAddClick(text)
+        this.props.onAddClick(text)     //从props调用回调函数
         node.value = ''
     }
 }
